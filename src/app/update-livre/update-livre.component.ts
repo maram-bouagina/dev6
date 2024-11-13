@@ -44,7 +44,6 @@ loading : boolean = false;
             idgenre: [this.currentlivre.genre.idgenre, [Validators.required]]
         });
     }
-      
       updatelivre(){
         //console.log(this.currentlivre);
  /*         this.currentlivre.idlivre = this.myForm.value.idlivre;
